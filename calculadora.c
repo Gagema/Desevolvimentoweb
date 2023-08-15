@@ -115,7 +115,6 @@ do{
 }while(resp!=5);
 if (resp==5){
     printf("Ate mais!");
-    printf("oi!");
     return 0;
 }
 }
