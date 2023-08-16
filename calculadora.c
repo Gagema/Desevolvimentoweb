@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include <stdlib.h>
+
 float multiplicacao(){
     float num1=0;
     float num2=0;
@@ -24,6 +25,7 @@ float divisao(){
     return res;
 
 }
+
 int main(){
 int resp=0;
 char resp2;
@@ -38,7 +40,9 @@ do{
     printf("2-subtração\n");
     printf("3-multiplicação\n");
     printf("4-divisão\n");
+
     printf("5-Sair\n");
+
     scanf("%d",&resp);
     if ( resp<1 || resp>5){
         printf("Tente novamente\n");
@@ -66,6 +70,7 @@ do{
         system("cls");
         break;
         case 5:
+
         printf("Deseja realmente sair?\n");
         printf("S-Sim ou N-Nao\n");
         fflush(stdin);
@@ -77,6 +82,9 @@ do{
         }
        else{
         break;}
+
+        break;
+
     }
 }while(resp!=5);
 if (resp==5){
